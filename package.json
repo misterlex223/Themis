@@ -1,0 +1,14 @@
+{
+  "name": "themis-monorepo",
+  "private": true,
+  "packageManager": "pnpm@9",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev:be": "pnpm --filter @themis/backend dev",
+    "build:be": "pnpm --filter @themis/backend build",
+    "start:be": "pnpm --filter @themis/backend start",
+    "test:be": "pnpm --filter @themis/backend test"
+  }
+}
